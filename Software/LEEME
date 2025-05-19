@@ -1,0 +1,50 @@
+Este archivo sirve como información de los diversos documentos entregados:
+-Cmake para compilar el proyecto
+-main.cpp código del main
+-main ejecutable del programa
+-script.sh Script que ejecuta el programa con 5 semillas distintas para cada archivo pedido y crea una carpeta llamada resultados donde guarda 
+según el número de nodos en archivos de texto los resultados de las ejecuciones.
+
+	-Para ejecutar en carpeta ./main	semilla(numero)		path_de_los_datos
+	Cabe resaltar que la ejecución se realiza el calculo del resultado con todos los algoritmos por ejecución.
+	
+carpetas:
+	-common: Contiene cabeceras proporcionadas por el profesorado para plantilla del proyecto
+	
+	-datos_MDD: Contiene los datos, se incluyó esta carpeta para el correcto funcionamiento del script.sh
+	
+	-inc: Contiene las cabeceras de las clases usadas para resolver el problema propuesto
+		-busquedalocal.h , declaración de cabeceras de clase busquedalocal para algoritmo de busqueda local
+		-greedy.h, declaración de cabeceras de clase greedy para algoritmo de busqueda greedy
+		-problem1.h, declaración de cabeceras de clase problem1 que representa los datos inherentes al problema que se esta tratando
+		-randomsearch.h, declaración de cabeceras de clase randomsearch para algoritmo de busqueda aleatorio
+		-solutionInfo.h,declaración de cabeceras de clase SolutionInfoP1 que representa los datos inherentes (y para apoyo luego en cálculo)
+		a las soluciones del problema que se esta tratando
+		-utilidadesgeneticos.h, declaración de cabeceras de clase Gutils que contiene todas las funcionalidades necesarias para los diversos
+		algoritmos genéticos y meméticos
+		-geneticos.h,declaración de cabeceras de clase Geneticos que contiene la implementación de los algoritmos genéticos tanto estacionario
+		como generacional con los dos tipos de cruces pedidos.
+		-memetico.h,declaración de cabeceras de clase Memetico que contiene la implementación de los algoritmos memético pedidos
+		con el tipo de cruce uniforme.
+		-bmb.h, declaración de cabeceras de clase bmb que contiene la implementación del algoritmo de búsquedad local multiarranque.
+		-ils.h, declaración de cabeceras de clase ils que contiene la implementación del algoritmo iterative search, tanto el clásico
+		como el enfriamiento simulado.
+		-grasp.h, declaración de cabeceras de clase grasp que contiene la implementación del algoritmo greedy randomized adaptive search procedure.
+		Implementación de grasp sin búsquedad local y con búsquedad local.
+		-enfriamientoSimulado.h, declaración de cabeceras de clase enfriamientoSimulado que contiene la implementación del algoritmo de mismo nombre.
+		
+		
+	-src:Contiene las implementeciones de las declaraciones hechas en inc
+		-busquedalocal.cpp , para busquedalocal.h
+		-greedy.cpp, para greedy.h
+		-problem1.cpp, para problem.h
+		-randomsearch.cpp, para randomsearch.h
+		-solutionInfo.cpp,para solutionInfo.h
+		-utilidadesgeneticos.cpp, para utildiadesgeneticos.h
+		-geneticos.cpp, para geneticos.h
+		-memetico.cpp, para memetico.h
+		-bmb.cpp, para bmb.h
+		-ils.h, para ils.cpp
+		-grasp.h, para grasp.cpp
+		-enfriamientoSimulado.h, para enfriamientoSimulado.cpp
+
