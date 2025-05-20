@@ -1,0 +1,4 @@
+/home/pablo/Desktop/PRACTICASIG/ig-pracs-plantilla/CarpetaRaiz/builds/linux/cmake/CMakeFiles/debug_exe.dir
+/home/pablo/Desktop/PRACTICASIG/ig-pracs-plantilla/CarpetaRaiz/builds/linux/cmake/CMakeFiles/release_exe.dir
+/home/pablo/Desktop/PRACTICASIG/ig-pracs-plantilla/CarpetaRaiz/builds/linux/cmake/CMakeFiles/edit_cache.dir
+/home/pablo/Desktop/PRACTICASIG/ig-pracs-plantilla/CarpetaRaiz/builds/linux/cmake/CMakeFiles/rebuild_cache.dir
