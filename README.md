@@ -1,4 +1,4 @@
-Compilation of projects done during de university bachelor includes: 
+Compilation of projects includes: 
 
 - **Machine Learning**  
   - Supervised Learning  
